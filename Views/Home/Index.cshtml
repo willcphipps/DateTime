@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        
+h2 {
+    border: 3px solid #ccc;
+    width: 500px;
+    padding: 50px;
+    text-align: center;
+    background-color: #425;
+    box-shadow: 5px 5px 5px 2px #777;
+}
+body{
+    background-color: #424;
+}
+.container{
+    display: grid;
+    justify-items: center;
+}
+
+    </style>
+    <div class="container">
+        <h2> @DateTime.Now.ToString("MMM dd, yyyy")</h2>
+        <h2> @DateTime.Now.ToString("h:mm tt")</h2>
+    </div>
+    
+
+</body>
+</html>
